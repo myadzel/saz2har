@@ -1,0 +1,39 @@
+{
+    "name": "saz2har",
+    "version": "1.0.0",
+    "description": "Convert SAZ file (from Fiddler) to HAR file",
+    "author": {
+        "name": "Alexander Myadzel",
+        "email": "myadzel@gmail.com"
+    },
+    "main": "./index.js",
+    "tags": [
+        "saz",
+        "har",
+        "fiddler",
+        "chrome",
+        "parser",
+        "webdev",
+        "devtools"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/myadzel/saz2har.git"
+    },
+    "bugs": {
+        "url": "https://github.com/myadzel/saz2har/issues"
+    },
+    "dependencies": {
+        "mkdirp": "^0.5.1",
+        "yargs": "^4.8.1",
+        "unzip": "^0.1.11",
+        "pako": "^1.0.6",
+        "har-validator": "^1.8.0",
+        "pixl-xml": "^1.0.13",
+        "moment": "^2.19.1"
+    },
+    "engines": {
+        "node": ">=0.10"
+    },
+    "license": "MIT"
+}
