@@ -7,7 +7,7 @@
         "email": "myadzel@gmail.com"
     },
     "main": "./index.js",
-    "tags": [
+    "keywords": [
         "saz",
         "har",
         "fiddler",
