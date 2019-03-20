@@ -1,6 +1,6 @@
 {
     "name": "saz2har",
-    "version": "1.0.1",
+    "version": "1.1.0",
     "description": "Convert SAZ file (from Fiddler) to HAR file",
     "author": {
         "name": "Alexander Myadzel",
