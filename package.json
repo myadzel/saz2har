@@ -27,12 +27,12 @@
         "url": "https://github.com/myadzel/saz2har/issues"
     },
     "dependencies": {
-        "mkdirp": "^0.5.1",
-        "unzip": "^0.1.11",
-        "pako": "^1.0.6",
         "har-validator": "^1.8.0",
-        "pixl-xml": "^1.0.13",
         "moment": "^2.19.1",
+        "node-minizip": "^0.3.0",
+        "pako": "^1.0.6",
+        "pixl-xml": "^1.0.13",
+        "rimraf": "^3.0.0",
         "yargs": "^13.2.2"
     },
     "engines": {
