@@ -12,7 +12,7 @@ Usage: $0 [options] input.saz [output.har]`)
     })
     .example('$0 foo.saz bar.har --no-validate')
     .argv;
-console.log('***', argv.validate)
+
 const saz2har = require("./");
 
 const sourceFile = argv.source || argv.s || argv._[0];
