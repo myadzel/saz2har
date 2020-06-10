@@ -10,17 +10,20 @@ $ npm install -g saz2har
 
 ## API
 
-### convert(input, [output], [options])
+### convert(input[, output][, options][, callback])
 
-* `input` - path to the input .saz file
-* `output` - path to the output .har file
+* `input` - path to the input SAZ file
+* `output` - path to the output HAR file
 * `options` - object with conversion options
-    * `validate` - enables validation of the the HAR output (default: `true`)
-
+    * `validate` - enables validation of HAR output (default: `true`)
+    * `write` - write HAR output (default: `false`)
+* `callback` - callback function
 ```js
 var saz2har = require("saz2har");
 
-saz2har.convert("tmp/log.saz", function (err, data) {
+saz2har.convert("foo.saz", {
+    validate: false
+}, function (err, data) {
     if (err) {
         console.error("Error: ", err);
         
