@@ -1,6 +1,6 @@
 # saz2har
 
-Converts SAZ file (from Fiddler) to HAR file (for Chrome).
+Converts SAZ file (from Fiddler) to HAR file.
 
 ## Install
 
@@ -15,7 +15,7 @@ $ npm install saz2har
 * `input` - path to the input .saz file
 * `output` - path to the output .har file
 * `options` - object with conversion options
-  * `validate` - enables validation of the the HAR output (default: `true`)
+    * `validate` - enables validation of the the HAR output (default: `true`)
 
 ```js
 var saz2har = require("saz2har");
@@ -23,13 +23,15 @@ var saz2har = require("saz2har");
 saz2har.convert("tmp/log.saz", function (err, data) {
     if (err) {
         console.error("Error: ", err);
+        
         return;
     }
+    
     console.log(data);
 });
 ```
 
-## Tool
+## Bin
 
 ```
 $ saz2har --help
@@ -37,12 +39,12 @@ $ saz2har --help
 Usage: saz2har [options] input.saz [output.har]
 
 Options:
-  --help         Show help                                     [boolean]
-  --version      Show version                                  [boolean]
-  --no-validate  Validate the output HAR file (default: true)  [boolean]
+    --help          Show help                                       [boolean]
+    --version       Show version                                    [boolean]
+    --no-validate   Validate the output HAR file (default: true)    [boolean]
 
 Examples:
-  saz2har foo.saz bar.har --no-validate
+    saz2har foo.saz bar.har --no-validate
 ```
 
 ## License

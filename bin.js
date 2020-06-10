@@ -3,14 +3,14 @@
 const path = require("path");
 
 const argv = require("yargs")
-    .usage(`Converts SAZ file (from Fiddler) to HAR file (for Chrome).
+    .usage(`Converts SAZ file (from Fiddler) to HAR file.
 
 Usage: $0 [options] input.saz [output.har]`)
-    .option('no-validate', {
-        type: 'boolean',
-        description: 'Validate the output HAR file (default: true)'
+    .option("no-validate", {
+        type: "boolean",
+        description: "Validate the output HAR file (default: true)"
     })
-    .example('$0 foo.saz bar.har --no-validate')
+    .example("$0 foo.saz bar.har --no-validate")
     .argv;
 
 const saz2har = require("./");
