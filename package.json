@@ -1,7 +1,7 @@
 {
     "name": "saz2har",
-    "version": "2.2.1",
-    "description": "Converts SAZ file (from Fiddler) to HAR file (for Chrome).",
+    "version": "2.3.0",
+    "description": "Converts SAZ file (from Fiddler) to HAR file",
     "author": {
         "name": "Alexander Myadzel",
         "email": "myadzel@gmail.com"
