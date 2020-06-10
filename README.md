@@ -5,7 +5,7 @@ Converts SAZ file (from Fiddler) to HAR file.
 ## Install
 
 ```console
-$ npm install saz2har
+$ npm install -g saz2har
 ```
 
 ## API
